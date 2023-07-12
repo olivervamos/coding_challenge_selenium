@@ -28,5 +28,5 @@ Checkout
    Price sorting control
    Add items to basket    3
    Open basket
-   Checkout and fill data
+   Chceckout and fill data
    Page Should Contain    ${checkout_txt}  
