@@ -1,7 +1,7 @@
 *** Settings ***
 Resource    ../resources/keywords.robot
 Suite Setup    OpenBrowser    about:blank    chrome    options=add_experimental_option("detach", True)
-#Suite Teardown    CloseAllBrowsers
+Suite Teardown    CloseAllBrowsers
 
 *** Test Cases ***
 
